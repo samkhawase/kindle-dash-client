@@ -8,6 +8,8 @@ A project that transforms your jailbroken Kindle into a customizable dashboard d
 
 Turn your jailbroken Kindle into a low powered dashboard. The system works by executing a script (`dash.sh`) that periodically fetches PNG images from a Cloudflare worker and displays it on the Kindle's e-ink screen. I use this to show today's weather, arrival data for the bus stop next door and the day's timetable for my daughter's school. You can use it to display any other information you want to display in a low-power, always-on format.
 
+This is the client component of the project that runs on the Kindle. For the backend components that runs on the server please see this repo: [kindle-dash-backend](https://github.com/samkhawase/school-dash-backend).
+
 ## Prerequisites
 
 - A jailbroken Kindle device (tested on my old Kindle 10th Gen model)
